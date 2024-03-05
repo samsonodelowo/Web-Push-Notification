@@ -1651,3 +1651,18 @@ section {
 .footer .credits a {
   color: #fff;
 }
+
+/*Samson Odelowo additions */
+.notification-header {
+  padding-top: 88px;
+  text-align: center;
+  background: rgb(206, 18, 18); 
+  color: white;
+  font-size: 30px;
+}
+
+.btn-subscribe{
+  font-size: 32px !important; 
+  color: white !important;
+  text-decoration: underline;
+}
