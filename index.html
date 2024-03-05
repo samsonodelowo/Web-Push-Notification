@@ -39,13 +39,15 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
 
-    <!-- =======================================================
-  * Template Name: Yummy
-  * Updated: Jan 30 2024 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(function(OneSignal) {
+    OneSignal.init({
+      appId: "5564435c-cdf9-4990-9c35-594168bf6e70",
+    });
+  });
+</script>
   </head>
 
   <body>
@@ -115,7 +117,7 @@
         </nav>
         <!-- .navbar -->
 
-        <a class="btn-book-a-table" href="#book-a-table">Book a Table</a>
+        <div class='onesignal-customlink-container'></div>
         <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
         <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       </div>
